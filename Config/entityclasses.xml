@@ -1,6 +1,6 @@
 <configs>
-  <insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier']">
-    <passive_effect name="DamageModifier" operation="perc_add" value="0.25" tags="melee,ranged" />
+  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']/@value">3</set>
+  <insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" tags="upperbody,lowerbody" />
   </insertAfter>
-  <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']/@value">12</set>
 </configs>
