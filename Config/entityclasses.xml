@@ -1,6 +1,12 @@
 <configs>
   <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']/@value">6</set>
   <insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']">
-    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" tags="upperbody,lowerbody" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,upperbody,melee" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,upperbody,ranged" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,upperbody,thrownWeapon" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,lowerbody,melee" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,lowerbody,ranged" />
+    <passive_effect name="DamageModifier" operation="perc_add" value="-0.75" match_all_tags="true" tags="zombie,lowerbody,thrownWeapon" />
+    <passive_effect name="DamageModifier" operation="perc_set" value="1.75" tags="allHarvest,butcherHarvest" />
   </insertAfter>
 </configs>
