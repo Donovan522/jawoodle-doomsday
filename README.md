@@ -2,7 +2,7 @@
 
 ## 7 Days 2 Die Modlet
 
-Custom settings for JaWoodle's "Doomsday" let's play series, whereas all head shots do 300% normal damage, however all other damage is reduced to only 25% of normal.
+Custom settings for JaWoodle's "Doomsday" let's play series, whereas all head shots do 250% normal damage, however all other damage is reduced to only 10% of normal.
 
 If you're looking to replicate the series, you'll also want the following game settings:
 
